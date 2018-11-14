@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html,body{
+  height: 100%;
+}
+
+.page-container{
+  position: relative;
+  height: 100%;
+}
+
+.page-video-bg{
+  height: 100%;
+}
+
+.page-video-bg video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.page-content{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+ 
+.div1{
+  width: 100px;
+  height: 50px;
+  padding-left: 50px;
+  padding-top: 70px;
+}
+ .div2{
+  position: absolute;
+  top: 50px;
+  right: 100px;
+   width: 1000px;
+  height: 500px;
+  color: white;
+  text-align: right;
+}
+.div2 a{
+  color: white;
+}
+.page-mainer{
+  position: absolute;
+  height: 100px;
+  width: 560px;
+  right: 100PX;
+  top: 400PX;
+}
+.page-mainer img{
+  height: 80px;
+  width: 450PX;
+}
+.div3 img{
+  height: 70px;
+  width: 190px;
+}
+.div3{
+  position: absolute;
+  right: 100px;
+  top: 500px;
+}
+.page-footer div{
+  position: absolute;
+  bottom: 12px;
+  width: 100%;
+  text-align: center;
+}
+.page-footer a{
+  color: white;
+}
